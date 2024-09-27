@@ -1,0 +1,43 @@
+/* Vincent Marshall - 300714991 - VincentMarshallPortfolio - Sept 26, 2024*/
+
+#ffp{
+ 
+
+
+    
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    
+   
+}
+
+label{
+    font-size:xx-large;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+input{
+    font-size: larger;
+    height: 60px;
+    background-color:white;
+}
+
+.submit{
+    font-size:30px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+p,a{
+    font-size:40px;
+    text-align: center;
+}
+
+p {
+    font-size: 50px;
+}
