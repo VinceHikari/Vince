@@ -1,0 +1,201 @@
+<!--Vincent Marshall 300714991-->
+<!--standard layout-->
+
+
+<!---->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Form</title>
+    <meta charest="utf=8">
+    <link rel="stylesheet" href="stylesheet4.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <map id="map1" name="">
+                <area href="https://www.centennialcollege.ca/" shape="rect" coords="0,0,900,900">
+            </map>
+
+            <div class="cimage">
+            <img src="\img\cc3.png" width="300px;" usemap="#map1">
+            </div>
+
+            <h1 class="header">Continuing Education</h1>
+            <h3 class="instruction">Please read each statement carefully and consider each one. 
+                Use the computer card to make your choice (use a pencil to fill in the space). 
+                Give only one answer for each question.</h3>
+
+        </header>
+      
+        <main>
+            <div class="mainbody"> 
+                
+                    <div class ="dropdowntext">
+                    <label for="Coursecode">Course Code:</label>
+                    
+                        <select name="coursecode" class="coursecode">
+                            <option value="Select">Select</option>
+                            <option value="COMP213">COMP213</option>
+                            <option value="COMP100">COMP100</option>
+                            <option value="COMP120">COMP120</option>
+                        </select>
+                        
+                        <label for="Instructor">Instructor:</label>
+                        <select name="Instructor" id="Instructor">
+                            <option value="Select">Select</option>
+                            <option value="Haythem Qushtom">Haythem Qushtom</option>
+                            <option value="Leslie King">Leslie King</option>
+                            <option value="Melissa Wong">Melissa Wong</option> <br>
+                        </select>
+                    
+                        <label for="Coursecode">Semester:</label>
+                        <select name="semester" id="semester">
+                            <option value="Select">Select</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option> <br>
+                            </select>
+                    
+                    </div>
+ 
+                <br>
+
+               
+
+                <form name="multiplechoice" method="post" class="form1">
+
+                <div class="title1"> Instructor </div>
+                1. <b>Knowledge of Subject?</b> <br>
+                <input type="checkbox">
+                Good
+                <input type="checkbox">
+                Fair
+                <input type="checkbox">
+                Bad
+                <br>
+
+            2. <b>Helpfulness?</b><br>
+            <input type="checkbox">
+                Good
+                <input type="checkbox">
+                Fair
+                <input type="checkbox">
+                Bad
+                <br>
+
+            3. <b>Courtesy and Respect? </b><br>
+            <input type="checkbox">
+                Good
+                <input type="checkbox">
+                Fair
+                <input type="checkbox">
+                Bad
+                <br>
+
+            4. <b>Communication Skills?</b> <br>
+            <input type="checkbox">
+                Good
+                <input type="checkbox">
+                Fair
+                <input type="checkbox">
+                Bad
+                <br>
+
+            5. <b>Overall Preformance?</b> <br>
+            <input type="checkbox">
+                Good
+                <input type="checkbox">
+                Fair
+                <input type="checkbox">
+                Bad
+                <br>
+            
+            
+            <div class="title2"> Course </div>
+            
+            6. <b>How would you rate the course materials?</b> <br>
+            <input type="checkbox">
+                Good
+                <input type="checkbox">
+                Fair
+                <input type="checkbox">
+                Bad
+                <br>
+            7. <b>How much did this course meet your expectations?</b> <br>
+            <input type="checkbox">
+                Good
+                <input type="checkbox">
+                Fair
+                <input type="checkbox">
+                Bad
+                <br>
+            8. <b>How would you rate this course overall?</b> <br>
+            <input type="checkbox">
+                Good
+                <input type="checkbox">
+                Fair
+                <input type="checkbox">
+                Bad
+                <br> 
+            
+            
+            <div class="title3"> General Information </div>
+            
+            
+            9. <b>Was the course outline reviewed/explained at the beginning of your course?</b><br>
+            <input type="checkbox" id="chex">
+                Yes
+                <input type="checkbox">
+                No
+                <input type="checkbox">
+                Somewhat
+                <input type="checkbox">
+                <br>
+            
+            10. <b>Would you recommend this course to a friend with the same interests?</b>
+            <br>
+            <label><input type="checkbox"></label>
+            Yes
+            <input type="checkbox">
+            No
+            <input type="checkbox">
+            Somewhat
+            <input type="checkbox">
+            <br>
+            
+            
+            <div class="title4"> Additional Comments</div>
+            <br>
+            <form action="" method="post">
+                <div>
+                <textarea name="comments" class="comments"></textarea>
+                </div>
+                <input type="submit" value="Submit Form">
+                </form>
+
+        </main>
+        <br>
+        <footer>
+            Thank you! We pay attention to your feedback! <br>
+            Contact us below! <br>
+            <div class="links">
+            <a href="www.centennialcollege.ca/continuing_education">Web</a>
+            <a href="mailto: continuingeducation@centennialcollege.ca">Email</a>
+            <a href="www.twitter.com/CentennialEDU">Twitter</a>
+        </div>
+
+      
+        </footer>
+
+
+
+
+
+    </div>
+</body>
+
+  

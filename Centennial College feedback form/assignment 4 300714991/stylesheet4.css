@@ -1,0 +1,182 @@
+
+
+
+.container {
+    background-color: #44444b;
+   
+}
+
+.header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    float: none;
+    background-color: #d7e037;
+    margin: 10px;
+    
+}
+
+.mainbody {
+    background-color:white;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 750; 
+
+}
+
+.cimage {max-width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    
+
+}
+
+
+.instruction { font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    color:white;
+    font-weight: 300;
+}
+
+
+       
+
+.title1 { background-color: #d7e037;
+    font-size:23px;
+    font-weight: bold;
+    padding: 3px;
+    text-align: center;
+}
+
+.title2 { background-color: #d7e037;
+        font-size:23px;
+        font-weight:bold;
+       
+    }
+
+.title3 { background-color: #d7e037;
+            font-size:23px;
+            font-weight: bold;
+            
+        
+        }
+.title4 { background-color: #d7e037;
+                font-size:23px;
+                font-weight: bold;
+                
+            }
+    
+
+
+
+form{ font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    line-height: 200%;
+    text-align: center;
+    background-color: white;
+   
+    
+
+}
+
+
+
+.dropdowntext {
+    text-align: center;
+    padding: 13px;
+    font-family: Arial, Helvetica, sans-serif; }
+
+
+
+
+
+/*dropdown styling*/
+.coursecode {
+    position:relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    width: 200px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #44444b;
+    border-radius: 0%;
+    appearance: none;
+    
+}
+    
+
+
+#Instructor { position:relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    width: 220px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #44444b;
+}
+    
+
+
+#semester { position:relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    width: 220px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #44444b;
+}
+
+/* styling for links in footer*/
+a {
+    color: #44444b;
+    text-decoration: none;
+}
+
+a:hover {
+    color:black; 
+    text-decoration:none; 
+    cursor:pointer;  }
+
+
+.comments {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 700px;
+    height: 150px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #44444b;
+}
+
+input[type=submit] {
+    background-color:#44444b;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer; 
+    font-size: medium;
+}
+
+footer { text-align: center;
+    background-color: white;
+    border-top-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-top: 5px;
+    line-height:150%;
+    font-size: larger;
+
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.links {
+    word-spacing: 20px;
+    font-size: larger;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold; }
+    

@@ -1,0 +1,22 @@
+[ 
+  {
+     "filename":"/images4/photo01.jpg", 
+     "duration":8000
+  },
+  {
+     "filename":"/images4/photo02.jpg",
+     "duration":8000
+  },
+  {
+     "filename":"/images4/photo03.jpg",
+     "duration":8000
+  },
+  {
+   "filename":"/images4/photo04.jpg",
+   "duration":8000
+},
+{
+   "filename":"/images4/photo05.jpg",
+   "duration":9000
+}
+]
